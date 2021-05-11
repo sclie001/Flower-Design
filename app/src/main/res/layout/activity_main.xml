@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/business_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/business_name"
+        android:textSize="50sp"
+        android:textColor="@color/purple_500"
+        android:padding="10dp"
+        android:fontFamily="cursive"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/flower_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/flower_image"
+            android:scaleType="centerInside"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/flower_shop" />
+
+        <TextView
+            android:id="@+id/description_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/flower_image"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="16dp"
+            android:text="@string/description_heading"
+            android:textColor="@color/pink_200"
+            android:textStyle="bold"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/flower_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/description"
+            android:textColor="@color/pink"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/contact_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/contact_information"
+        android:textColor="@color/purple_200"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/address"
+        android:textColor="@color/purple_200"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/hours"
+        android:textColor="@color/purple_200"
+        android:textSize="28sp"/>
+</LinearLayout>

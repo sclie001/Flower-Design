@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Flower Design</string>
+    <string name="flower_image">flowers</string>
+    <string name="business_name">Flower Design</string>
+    <string name="contact_information">flowerdesign.com</string>
+    <string name="address">121 SW Orlando Ave\nOrlando, FL 32804</string>
+    <string name="description_heading">Let us design your floral arrangement.</string>
+    <string name="description">We design and deliver floral arrangements for any occasion. </string>
+    <string name="hours">Monday-Friday 8am-5pm</string>
+</resources>
